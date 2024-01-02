@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *,*::after,*::before{
     padding: 0%; margin: 0%; box-sizing: border-box;
 }
+
+body{
+    overflow-x: hidden;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/main_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .home h1{
+        text-align: center;
+        font-size: 64px;
+        font-family: 'Press Start 2P';
+        font-weight: 400;
+        background: -webkit-linear-gradient(red, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+/* end home */
+/* system_requirements */
+.system_requirements{
+    width: 100vw;
+    height: 100vh;
+}
+/* system_requirements End */
