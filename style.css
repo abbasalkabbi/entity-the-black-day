@@ -33,4 +33,59 @@ body{
     width: 100vw;
     height: 100vh;
 }
+    .system_requirements .content{
+        margin: auto;
+        width: 80%;
+        height: 80%;
+        border: #000 solid 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+        /* minimum */
+        .system_requirements .content .minimum{
+            width: 400px ;
+            height: 500px;
+            background-color: #dbdbdb;
+            border-radius: 12px;
+            box-shadow: 20px 16px 20px 0px #130e0e78;
+        }
+            .system_requirements .content  h2{
+                font-size: 32px;
+                font-family: sans-serif;
+                font-weight: 400;
+                text-align: center;
+                margin-top: 10px;
+                text-transform: capitalize;
+            }
+            .system_requirements .content  .list{
+                width: 80%;
+                height: 80%;
+                margin: auto;
+                list-style: none;
+                
+            }
+                .system_requirements .content .list li{
+                    
+                }
+                    .system_requirements .content  .list li span{
+                        color: #130e0e;
+                        font-size: 32px;
+                        
+                    }
+                    .system_requirements .content  .list li p{
+                        color:#2259ac;
+                        font-size: 22px;
+                    }
+        /* minimum End */
+        /* recommended */
+        .system_requirements .content .recommended{
+            width: 400px ;
+            height: 500px;
+            background-color: #dbdbdb;
+            border-radius: 12px;
+            box-shadow: 20px 16px 20px 0px #130e0e78;
+        }
+        /* recommended End */
 /* system_requirements End */
