@@ -33,7 +33,15 @@ body{
     width: 100vw;
     height: 100vh;
     position: relative;
-}   
+    background-color: #dbdbdb;
+} 
+.gallery h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 42px;
+    margin: 0px 0px 10px 0px;
+    font-family: sans-serif;
+}  
 .gallery  .next {
     font-size: 22px;
     color: #000;
@@ -73,17 +81,23 @@ body{
         background-attachment:scroll;
         background-image: url('./assets/main_img-4.jpg');  background-position: center;
         background-repeat: no-repeat;
+        box-shadow:13px 9px 20px 6px #130e0e78;
     }
     .gallery .show-img .close {
-        font-size: 22px;
+        font-size: 42px;
         color: #fff;
         float: right;
         cursor: pointer;
         background-color: red;
-        margin: 5px 20px 0px 0px;
-        padding: 10px;
         border: none;
-        border-radius: 12px;
+        color: white;
+        padding: 5px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 8px ;
+        cursor: pointer;
+        border-radius: 50%;
     }
         .gallery .show-img .close:hover{
             color: #000;
@@ -93,18 +107,18 @@ body{
     .gallery .content{
         width: 80%;
         height: 80%;
-        border: 1px solid #000;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        margin: auto;
+        justify-content: space-evenly;
+        margin: auto ;
+        margin-bottom: 20px;
     }
         /* card */
         .gallery .content .card{
             width: 400px;
             height: 400px;
-            border: #2259ac 1px solid;
             margin: 10px 0px 10px 0px;
+            box-shadow:13px 9px 20px 6px #130e0e78;
         }
         .gallery .content .card:hover{
             cursor: pointer;
