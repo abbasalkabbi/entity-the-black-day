@@ -7,15 +7,24 @@
     <title>entity-the-black-day</title>
 </head>
 <body>
+    <!-- header -->
+    <header>
+        <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#gallery"><li>Gallery</li></a>
+            <a href="#about"><li>About</li></a>
+        </ul>
+    </header>
+    <!-- end header -->
     <!-- start home -->
-    <div class="home">
+    <div class="home" id="home">
         <h1>
             Entity: The Black Day
         </h1>
     </div>
     <!-- end home -->
     <!-- gallery -->
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <h1>Gallery</h1>
         <button class="previous"  onclick="show('main_img.jpg','prev')">&#8249;</button>
         <button class="next" hold-id="0" onclick="show('main_img.jpg','next')">&#8250;</button>
@@ -55,7 +64,7 @@
     </div>
     <!-- gallery End -->
     <!-- about -->
-    <div class="about">
+    <div class="about" id="about">
         <h1>About This Game</h1>
         <div class="content">
             <p>
