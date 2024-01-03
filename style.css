@@ -33,11 +33,16 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.system_requirements h1{
+    text-align: center;
+    font-size: 42px;
+    margin: 40px 0px 10px 0px;
+    font-family: sans-serif;
+}
     .system_requirements .content{
         margin: auto;
         width: 80%;
         height: 80%;
-        border: #000 solid 1px;
         display: flex;
         flex-direction: row;
         align-items: center;
