@@ -14,6 +14,46 @@
         </h1>
     </div>
     <!-- end home -->
+    <!-- gallery -->
+    <div class="gallery">
+
+        <button class="previous" hold_id="0" onclick="show('main_img.jpg','hide')">&#8249;</button>
+        <button class="next" hold-id="0" onclick="show('main_img.jpg','next')">&#8250;</button>
+        <div class="show-img">
+            <button class="close" onclick="show('main_img.jpg','hide')">Close</button>
+        </div>
+        <!--content  -->
+        <div class="content">
+            <!--card  -->
+            <div class="card" onclick="show('main_img-1.jpg','show')">
+                <img src="./assets/main_img-1.jpg" alt="" srcset="">
+            </div>
+            <!-- card End -->
+            <!--card  -->
+            <div class="card"  onclick="show('main_img-2.jpg','show')">
+                <img src="./assets/main_img-2.jpg" alt="" srcset="">
+            </div>
+            <!-- card End -->
+            <!--card  -->
+            <div class="card" onclick="show('main_img-3.jpg','show')">
+                <img src="./assets/main_img-3.jpg" alt="" srcset="">
+            </div>
+            <!-- card End -->
+            <!--card  -->
+            <div class="card" onclick="show('main_img-4.jpg','show')">
+                <img src="./assets/main_img-4.jpg" alt="" srcset="">
+            </div>
+            <!-- card End -->
+            <!--card  -->
+            <div class="card" onclick="show('main_img-5.jpg','show')">
+                <img src="./assets/main_img-5.jpg" alt="" srcset="">
+            </div>
+            <!-- card End -->
+
+        </div>
+        <!-- end content -->
+    </div>
+    <!-- gallery End -->
     <!-- SYSTEM REQUIREMENTS -->
     <div class="system_requirements">
         <h1>
@@ -99,6 +139,7 @@
         <!-- content End -->
     </div>
     <!-- SYSTEM REQUIREMENTS End -->
+    <!--  -->
     <script src="./app.js"></script>
 </body>
 </html>
