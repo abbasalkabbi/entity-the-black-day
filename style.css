@@ -197,3 +197,57 @@ body{
         }
         /* recommended End */
 /* system_requirements End */
+/* about */
+.about{
+    width: 100vw;
+    height: 100vh;
+    background-color: #385683;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* h1 */
+.about h1{
+    text-align: center;
+    font-size: 42px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+/* h1 end */
+/* content */
+.about .content{
+    margin-top: 20px;
+    width: 60%;
+    background-color: #dbdbdb;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 20px 16px 20px 0px #130e0e78;
+}
+.about .content p{
+    font-size: 22px;
+    font-family: serif;
+    text-transform: capitalize;
+    color: #000;
+}
+/* content end */
+/*  a*/
+.about a{
+    width: 220px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #2259ac;
+    font-size: 42px;
+    color: #fff;
+    border-radius: 12px;
+    
+}
+.about a:hover{
+    color: #000;
+    box-shadow: 20px 16px 20px 0px #130e0e78;
+}
+/*  a end*/
+/* about end */
